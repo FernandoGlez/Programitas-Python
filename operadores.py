@@ -1,16 +1,21 @@
-variable_uno = 10
-variable_dos = 18
+#Operador Boolenanos la comparacion de 2 variables o mas devuelve un verdadero o falso.
+variables_uno = 10
+variables_dos = 10
 
-mayor = variable_uno > variable_dos
-menor = variable_uno < variable_dos
-mayor_igual = variable_uno >= variable_dos
-menor_igual = variable_uno <= variable_dos
-igual = variable_uno == variable_dos
-diferente = variable_uno != variable_dos
 
-print(mayor)
-print(menor)
-print(mayor_igual)
-print(menor_igual)
-print(igual)
-print(diferente)
+#mayor = variables_uno > variables_dos
+#menor = variables_uno < variables_dos
+#mayor_igual = variables_uno >= variables_dos
+diferente = variables_uno!= variables_dos
+igual = variables_uno is variables_dos
+#menor_igual = variables_uno <= variables_dos
+
+#print(mayor)
+#print(menor)
+#print(mayor_igual)
+#print(igual)
+#print(menor_igual)
+#print(diferente)
+
+resultado = not True
+print (igual)
